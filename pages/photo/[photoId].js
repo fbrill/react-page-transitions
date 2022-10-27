@@ -29,7 +29,7 @@ const PhotoDetail = () => {
 
   return (
     <Layout>
-      <div className="grid grid-cols-[1fr,1.5fr] min-h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr,1.5fr] min-h-screen">
         <div className="p-10">
           <div className="sticky top-10">
             <motion.div
@@ -95,7 +95,7 @@ const PhotoDetail = () => {
               }}
               className="mt-5 text-sm text-gray-500 space-y-5"
             >
-              <LoremIpsum p={3} />
+              <LoremIpsum p={2} />
             </motion.div>
           </div>
         </div>

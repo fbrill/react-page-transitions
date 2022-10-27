@@ -6,9 +6,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Layout>
-      <div className="p-10 grid grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div className="p-10 grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
         <div className="bg-gradient-to-tr from-purple-600 to-indigo-600 p-8 flex rounded-2xl items-center">
-          <h1 className="font-extrabold text-5xl text-indigo-200 leading-tight">
+          <h1 className="font-extrabold text-3xl xl:text-5xl text-indigo-200 leading-tight">
             Page Transitions in{" "}
             <a href="https://nextjs.org" className="text-white">
               Next.js
