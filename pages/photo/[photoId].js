@@ -28,7 +28,7 @@ const PhotoDetail = () => {
   }
 
   return (
-    <Layout id={photo.id}>
+    <Layout>
       <div className="grid grid-cols-[1fr,1.5fr] min-h-screen">
         <div className="p-10">
           <div className="sticky top-10">
